@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_express_mongodb",
+  "version": "1.0.0",
+  "description": "app on NodeJS, ExpressJS and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Atanasov Alexandr",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
